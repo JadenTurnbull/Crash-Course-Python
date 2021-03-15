@@ -24,4 +24,27 @@ print("/n Can only invite two peeps")
 
 
 removed_geusts = geust_list.pop()
+print(f"Sorry {removed_geusts} ")
+
+removed_geusts = geust_list.pop()
+print(f"Sorry {removed_geusts} ")
+
+removed_geusts = geust_list.pop()
+print(f"Sorry {removed_geusts} ")
+
+removed_geusts = geust_list.pop()
+print(f"Sorry {removed_geusts} ")
+
+removed_geusts = geust_list.pop()
+print(f"Sorry {removed_geusts} ")
+
+for geusts in geust_list:
+	print(f"{geusts} you are invited")
+
+del geust_list[:]
+
+
+print(geust_list)
+
+
 
