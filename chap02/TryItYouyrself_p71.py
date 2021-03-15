@@ -11,3 +11,19 @@ print(Person_name.lower())
 quote = "You're only as good as your last haircut." 
 print(f"{quote} Fran Lebowitz")
 
+#2-6
+famous_person = "Fran Lebowitz"
+
+message = f"{quote} {famous_person}"
+print(message
+	)
+
+#2-7
+Person_name = "    \tHello \nEric     "
+
+print(Person_name
+	)
+
+
+Person_name.strip()
+print(Person_name)
